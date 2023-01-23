@@ -12,19 +12,22 @@ class GameScene: SKScene
 {
     override func sceneDidLoad()
     {
-
+        print("Game Scene Loaded")
     }
     
-    func touchDown(atPoint pos : CGPoint) {
-
+    func touchDown(atPoint pos : CGPoint)
+    {
+        print("Touch Down")
     }
     
-    func touchMoved(toPoint pos : CGPoint) {
-
+    func touchMoved(toPoint pos : CGPoint)
+    {
+        print("Touch Move")
     }
     
-    func touchUp(atPoint pos : CGPoint) {
-
+    func touchUp(atPoint pos : CGPoint)
+    {
+        print("Touch Up")
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?)
