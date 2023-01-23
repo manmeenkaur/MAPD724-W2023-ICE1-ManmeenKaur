@@ -69,6 +69,8 @@
 		A3C832FE297E3A5E00FDAEEA /* dock51.woff in Resources */ = {isa = PBXBuildFile; fileRef = A3C832C7297E3A5E00FDAEEA /* dock51.woff */; };
 		A3C832FF297E3A5E00FDAEEA /* dock51.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = A3C832C8297E3A5E00FDAEEA /* dock51.woff2 */; };
 		A3C83300297E3A5E00FDAEEA /* Dock51.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3C832C9297E3A5E00FDAEEA /* Dock51.ttf */; };
+		A3C83303297E3D8600FDAEEA /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C83302297E3D8600FDAEEA /* GameObject.swift */; };
+		A3C83305297E3F2C00FDAEEA /* GameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C83304297E3F2C00FDAEEA /* GameProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -135,6 +137,8 @@
 		A3C832C7297E3A5E00FDAEEA /* dock51.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = dock51.woff; sourceTree = "<group>"; };
 		A3C832C8297E3A5E00FDAEEA /* dock51.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dock51.woff2; sourceTree = "<group>"; };
 		A3C832C9297E3A5E00FDAEEA /* Dock51.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dock51.ttf; sourceTree = "<group>"; };
+		A3C83302297E3D8600FDAEEA /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
+		A3C83304297E3F2C00FDAEEA /* GameProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,7 @@
 		A3C83205297E306300FDAEEA /* MAPD724-W2023-ICE1-ManmeenKaur */ = {
 			isa = PBXGroup;
 			children = (
+				A3C83301297E3D6F00FDAEEA /* Core */,
 				A3C8328E297E3A5E00FDAEEA /* Assets */,
 				A3C83206297E306300FDAEEA /* AppDelegate.swift */,
 				A3C83208297E306300FDAEEA /* GameScene.sks */,
@@ -271,6 +276,15 @@
 				A3C832C9297E3A5E00FDAEEA /* Dock51.ttf */,
 			);
 			path = fonts;
+			sourceTree = "<group>";
+		};
+		A3C83301297E3D6F00FDAEEA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A3C83302297E3D8600FDAEEA /* GameObject.swift */,
+				A3C83304297E3F2C00FDAEEA /* GameProtocol.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -400,6 +414,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3C83303297E3D8600FDAEEA /* GameObject.swift in Sources */,
+				A3C83305297E3F2C00FDAEEA /* GameProtocol.swift in Sources */,
 				A3C8320D297E306300FDAEEA /* GameScene.swift in Sources */,
 				A3C8320F297E306300FDAEEA /* GameViewController.swift in Sources */,
 				A3C83207297E306300FDAEEA /* AppDelegate.swift in Sources */,
